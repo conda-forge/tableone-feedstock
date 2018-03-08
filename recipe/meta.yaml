@@ -26,6 +26,7 @@ requirements:
     - pandas
     - numpy
     - scipy
+    - statsmodels
 
 test:
   imports:

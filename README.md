@@ -16,12 +16,15 @@ in Python.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/tableone-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/tableone-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/tableone-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/tableone-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/tableone/badges/version.svg)](https://anaconda.org/conda-forge/tableone)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/tableone/badges/downloads.svg)](https://anaconda.org/conda-forge/tableone)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-tableone-green.svg)](https://anaconda.org/conda-forge/tableone) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/tableone.svg)](https://anaconda.org/conda-forge/tableone) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/tableone.svg)](https://anaconda.org/conda-forge/tableone) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/tableone.svg)](https://anaconda.org/conda-forge/tableone) |
 
 Installing tableone
 ===================

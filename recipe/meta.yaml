@@ -1,6 +1,6 @@
 {% set name = "tableone" %}
-{% set version = "0.6.3" %}
-{% set sha256 = "ad39b3a6b577803f0ce8c2a7a0ad8ad1c7fa1104eeb682c652edaa58ebe7b2e9" %}
+{% set version = "0.6.4" %}
+{% set sha256 = "ad0a79ae8fd44f494be6836b4090cf2fad98e4c07bb65ca20d95482817dd976f" %}
 
 package:
   name: {{ name|lower }}
@@ -27,6 +27,7 @@ requirements:
     - numpy
     - scipy
     - statsmodels
+    - tabulate
 
 test:
   imports:

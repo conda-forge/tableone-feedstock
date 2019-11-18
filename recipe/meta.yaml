@@ -27,6 +27,7 @@ requirements:
     - numpy
     - scipy
     - statsmodels
+    - tabulate
 
 test:
   imports:

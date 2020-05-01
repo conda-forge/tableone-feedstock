@@ -1,6 +1,6 @@
 {% set name = "tableone" %}
-{% set version = "0.6.6" %}
-{% set sha256 = "8ed535e637ac5cffa7a901272d3880de7bf962852867aa8e9f34b7eff61f95b1" %}
+{% set version = "0.7.0" %}
+{% set sha256 = "6ba04e8337eb4e117109df317878486b865a153c6b293bca5ca6ce2f046b48e3" %}
 
 package:
   name: {{ name|lower }}
@@ -38,7 +38,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Create Table 1 for research papers in Python'
+  summary: Create Table 1 for research papers in Python
   description: |
     tableone is a package for creating Table 1 for research papers
     in Python.

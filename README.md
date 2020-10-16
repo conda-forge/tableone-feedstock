@@ -5,9 +5,13 @@ Home: http://github.com/tompollard/tableone
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tableone-feedstock/blob/master/LICENSE.txt)
 
 Summary: Create Table 1 for research papers in Python
+
+Development: https://github.com/tompollard/tableone
+
+Documentation: http://tableone.readthedocs.io/
 
 tableone is a package for creating Table 1 for research papers
 in Python.

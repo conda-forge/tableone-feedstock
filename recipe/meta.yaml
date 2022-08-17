@@ -13,16 +13,16 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python
+    - python >=3.9
     - pip
 
   run:
-    - python
+    - python >=3.9
     - pandas
     - numpy
     - scipy

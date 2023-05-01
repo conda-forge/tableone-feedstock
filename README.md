@@ -1,11 +1,11 @@
-About tableone
-==============
+About tableone-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tableone-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/tompollard/tableone
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tableone-feedstock/blob/main/LICENSE.txt)
 
 Summary: Create Table 1 for research papers in Python
 

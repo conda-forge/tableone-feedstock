@@ -1,6 +1,6 @@
 {% set name = "tableone" %}
-{% set version = "0.7.12" %}
-{% set sha256 = "567300daa4e6902b7ffb5446d5bb85d3a45a4b9e936cda306d9a51b8ecb965c7" %}
+{% set version = "0.8.0" %}
+{% set sha256 = "85472ec914c8c3248de803aa42c71f595a305a65595936bc87b7ce5a7ce87da1" %}
 
 package:
   name: {{ name|lower }}
@@ -20,6 +20,8 @@ requirements:
   host:
     - python >=3.9
     - pip
+    - hatchling
+    - setuptools
 
   run:
     - python >=3.9

@@ -20,6 +20,8 @@ requirements:
   host:
     - python >=3.9
     - pip
+    - hatchling
+    - setuptools
 
   run:
     - python >=3.9

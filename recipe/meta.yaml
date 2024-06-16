@@ -1,6 +1,6 @@
 {% set name = "tableone" %}
-{% set version = "0.9.0" %}
-{% set sha256 = "a47c4441dcbba44994847e1d04ccff67d04f9c55e60261772c22ccf56a1017f4" %}
+{% set version = "0.9.1" %}
+{% set sha256 = "96c4b5b5820a204488e26c1ed88bbe8bec89ce5d128c11c3adab94bd26ac58e4" %}
 
 package:
   name: {{ name|lower }}

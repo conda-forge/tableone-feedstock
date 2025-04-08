@@ -1,6 +1,6 @@
 {% set name = "tableone" %}
-{% set version = "0.9.1" %}
-{% set sha256 = "96c4b5b5820a204488e26c1ed88bbe8bec89ce5d128c11c3adab94bd26ac58e4" %}
+{% set version = "0.9.2" %}
+{% set sha256 = "199277e39213746845387ae9707d7c72f0ffc85605db74a56f58c31a8505722d" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:

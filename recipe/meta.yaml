@@ -13,18 +13,18 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - pip
     - hatchling
     - setuptools
 
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - pandas
     - numpy
     - scipy
@@ -32,6 +32,8 @@ requirements:
     - tabulate
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - tableone
 

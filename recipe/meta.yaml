@@ -1,6 +1,6 @@
 {% set name = "tableone" %}
-{% set version = "0.9.4" %}
-{% set sha256 = "a614d6fc412cfbea25dd4186ef84cb4c3557c81a0fdcc0bcb8a96a43b981b6e1" %}
+{% set version = "0.9.5" %}
+{% set sha256 = "dade3a7225c438a0ad1d7ea50b4752fc19550c1b09fa832f1cc9d655d903f70b" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
